@@ -1,0 +1,25 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" async></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Distance</title>
+</head>
+<body>
+    <h1>Calcul de distance</h1>
+    <div id="coordonne">
+        <label for="lat_d">Saisir la latitude de départ</label>
+        <input type="text" name="lat_d" id="lat_d">
+        <label for="long_d">Saisir la longitude de départ</label>
+        <input type="text" name="long-d" id="long_d">
+        <label for="lat_a">Saisir la latitude d'arrivé</label>
+        <input type="text" name="lat_a" id="lat_a">
+        <label for="long_a">Saisir la longitude d'arrivé</label>
+        <input type="text" name="long_a" id="long_a">
+        <input type="button" value="Calculer" onclick="distance()">
+        <p id="resultat">la distance est : </p>
+    </div>
+</body>
+</html>
