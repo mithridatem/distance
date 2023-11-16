@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+body{
+    font-family: "Roboto";
+}
 #coordonne{
     display: flex;
     flex-direction: column;
@@ -11,9 +15,21 @@ input, label, p{
     height: 4vh;
 }
 input[type="button"]{
+    margin-top: 4vh;
     width: 20vw;
+    font-size: 1em;
     align-self: flex-end;
 }
-h1{
+h1, #resultat{
     text-align: center;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+    color:red;
+}
+label{
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 1.1em;
+    font-weight: bold;
 }
