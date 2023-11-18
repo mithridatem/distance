@@ -23,7 +23,7 @@ input[type="button"]{
 h1, #resultat{
     text-align: center;
 }
-::-webkit-input-placeholder{
+input::placeholder{
     text-align: center;
     color:red;
 }
